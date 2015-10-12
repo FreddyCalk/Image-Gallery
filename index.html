@@ -1,3 +1,8 @@
+<!-- Add captions below each thumbnail image(both top and left alignment).
+reduce the width of the preview when aligned right to 40%, but remain centered.
+add another row of 5 on the bottom or right that does the same thing as the first group.
+Use at least 2 other events(onmouseover) -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,11 +22,17 @@
 		<!-- wrapper for the thumbnails -->
 		<div class="thumbnails">
 			<img onmouseover="preview.src=img1.src" name="img1" src="image/image1.jpg" alt="image">
+			<p class = "caption">Image 1</p>
 			<img onmouseover="preview.src=img2.src" name="img2" src="image/image2.jpg" alt="image">
+			<p class = "caption">Image 2</p>
 			<img onmouseover="preview.src=img3.src" name="img3" src="image/image3.jpg" alt="image">
+			<p class = "caption">Image 3</p>
 			<img onmouseover="preview.src=img4.src" name="img4" src="image/image4.jpg" alt="image">
+			<p class = "caption">Image 4</p>
 			<img onmouseover="preview.src=img5.src" name="img5" src="image/image5.jpg" alt="image">
+			<p class = "caption">Image 5</p>
 		</div>
+
 
 		<div class="preview">
 			<img name="preview" src ="image/image3.jpg" alt="image">

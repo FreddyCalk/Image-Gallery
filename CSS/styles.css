@@ -10,32 +10,54 @@ h1{
 	margin-bottom:20px;
 	font-size:35px;
 }
-
+p{
+	text-align:center;
+	margin: 10 20px;
+}
 
 .thumbnails{
 	text-align: center;
+	float:left;
+	width: 10%;
+	margin:0 20px;
 	}
 .thumbnails img{
-	height: 100px;
+	width:100%;
 	border:4px solid #555;
-	margin:0 20px;
 }
 .thumbnails img:hover{
 	border:4px solid #00CCFF;
 	
 }
+.thumbnails p{
+	margin: 20 0px;
+}
+.thumbnailsRight{
+	text-align: center;
+	float:right;
+	width:10%;
+	margin: 0 20px;
+}
+.thumbnailsRight img{
+	width:100%;
+	border:4px solid #555;
+}
+.thumbnailsRight img:hover{
+	border:4px solid #00CCFF;
+}
+.thumbnailsRight p{
+	margin:20 0px;
+}
 .preview{
 	text-align:center;
+	width:88%;
+	margin:0px;
 	
 }
 .preview img{
 	border:4px solid #555;
 }
-.caption{
+.thumbnailsRight p{
 	text-align:center;
-	margin:20px;
-}
-.caption p{
-	margin: 0 6.2%;
-	display:inline;
+
 }
